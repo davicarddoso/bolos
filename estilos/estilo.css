@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(112, 112, 112);
+    display: flex;
+    align-items: flex-end;
+   justify-content: space-between;
+   
+
+}
+   div#logo-header {
+      background-image: url(../imagens/ei_1755310351454-removebg-preview.png);
+      background-color: white;
+      border-radius: 30px;
+      background-size: cover;
+        background-size: cover;
+        height: 50px;
+        width: 50px;
+        margin: 5px;
+
+
+        align-self: stretch;
+    } 
+    .menu {
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+header > nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
